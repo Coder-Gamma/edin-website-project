@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+  /* background-color: rgb(233, 233, 228); */
+  font-family: "Helvetica Neue";
+  color: #464749;
+}
