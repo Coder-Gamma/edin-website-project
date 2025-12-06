@@ -28,7 +28,7 @@ function BgVideo() {
               </Link>
             </li>
             <li>
-              <Link to="" className="hover:underline">
+              <Link to="/education" className="hover:underline">
                 <span>02</span>
                 <br />
                 Education
