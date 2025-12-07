@@ -4,6 +4,7 @@ import Img1 from "../assets/20240909_122852000_iOS-3-506x623.jpg";
 import Phoenix from "../assets/Phoenix-Milton-Keynes-1-506x623.jpg";
 import Princesstrust from "../assets/Princess-Trust-Birmingham-Large-34-of-44-506x623.jpg";
 import Risley from "../assets/Riseley_-506x623.jpg";
+import NetherhallGardens from "../assets/NGardens-2-506x623.jpg"
 const cardData2 = [
   {
     category: "Community Center",
@@ -34,6 +35,11 @@ const cardData2 = [
     category: "Community Center",
     projectImg: Img1,
     pname: "Lighthouse project newcastle",
+  },
+    {
+    category: "Education",
+    projectImg:  NetherhallGardens ,
+    pname: "Netherhall gardens, south hampstead",
   },
 ];
 export default cardData2;

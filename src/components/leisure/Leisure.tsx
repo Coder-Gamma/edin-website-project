@@ -21,9 +21,11 @@ const Leisure = () => {
                 cardHeading={elem.cardHeading}
               />
             </div>
+
           );
         })}
       </div>
+      
     </div>
   );
 };

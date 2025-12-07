@@ -1,6 +1,7 @@
 import React from "react";
 import educationData from "./educationData";
 import Template from "../Template";
+import EducationCard from "./EducationCard";
 
 const Education = () => {
   return (
@@ -24,6 +25,7 @@ const Education = () => {
           );
         })}
       </div>
+      <EducationCard />
     </div>
   );
 };

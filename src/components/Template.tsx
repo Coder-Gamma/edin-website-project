@@ -78,7 +78,6 @@ const Template = (props: template) => {
           <h1 className="text-6xl my-8 font-light">{props.cardHeading}</h1>
         </div>
       </div>
-      <CardsContainer />
     </div>
   );
 };
