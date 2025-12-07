@@ -16,14 +16,14 @@ const Template = (props: template) => {
   return (
     <div>
       {/* THIS IS THE LANDING AREA WITH BG IMAGE */}
-      <div className="bg-[rgb(233,233,228)] h-screen">
+      <div className="bg-[rgb(233,233,228)] h-screen overflow-hidden ">
         <div>
           <section
-            className=" relative h-[70vh] bg-cover bg-center bg-no-repeat max-w-[1900px] mx-4"
+            className="relative h-[70vh] bg-cover bg-center bg-no-repeat max-w-[1900px]"
             style={{ backgroundImage: `url(${props.backgroundImg})` }}
           >
             <div className="absolute inset-0 bg-white/10 rounded-2xl"></div>
-            <h1 className="absolute text-4xl md:text-8xl font-normal  text-white top-30 px-4 py-8">
+            <h1 className="md:absolute uppercase text-4xl md:text-8xl font-normal border-t border-gray-300 md:mt-25  text-white md:top-30 px-4 py-8">
               {props.heading}
             </h1>
           </section>
@@ -50,12 +50,14 @@ const Template = (props: template) => {
       {/* ARTICLE SECTION STARTS FROM HERE : */}
 
       <div className="mt-18">
-        <div className="grid grid-cols-[5fr_2fr] md:gap-25 mx-6">
+        <div className="grid md:grid-cols-[5fr_2fr] md:gap-25 mx-6">
           <div>
             <img src={props.articleImg} alt="article image" />
           </div>
           <div className="flex flex-col gap-8">
-            <h2 className="md:text-6xl">{props.articleHeading}</h2>
+            <h2 className="text-3xl py-4 md:text-6xl">
+              {props.articleHeading}
+            </h2>
             <p className="text-xl">{props.firstParagraph}</p>
             <p className="text-xl">{props.secondParagraph}</p>
           </div>

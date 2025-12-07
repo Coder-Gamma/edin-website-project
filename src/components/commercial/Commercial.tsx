@@ -22,6 +22,13 @@ const Commercial = () => {
       <Intro />
       <Carticle />
       <WhyEden />
+      <div className="">
+        <div className="w-[30%] border-2 border-gray-400"></div>
+        <h1 className="text-6xl my-10 mb-20 font-light ">
+          COMMERCIAL FIT OUT & <br />
+          REFURBISHMENT CASE STUDIES
+        </h1>
+      </div>
       <CardsContainer />
     </div>
   );

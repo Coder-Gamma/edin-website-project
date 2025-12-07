@@ -16,6 +16,7 @@ import cardData2 from "../data/cardData2";
 import { motion } from "framer-motion";
 import { gridContainerVarients, gridCardsVarients } from "../utils/animation";
 import ScrollToTop from "../components/ScrollToTop";
+import { textVarient } from "../utils/animation";
 
 const Home = () => {
   return (
@@ -59,9 +60,15 @@ const Home = () => {
         // YEHA WRAPPER DIV BANAUNA PRYO FOR THE CARDS GRID LAYOUT
         <div className="bg-neutral-900 p-4">
           <div className="mt-10 mb-10 border-t-4 border-gray-400 py-8 ">
-            <h1 className="uppercase text-4xl text-white border-t-gray-400 md:text-8xl">
+            <motion.h1
+              variants={textVarient}
+              initial="paila"
+              whileInView="paxi"
+              viewport={{ once: true, amount: 0.2 }}
+              className="uppercase text-4xl text-white border-t-gray-400 md:text-8xl"
+            >
               Explore a section <br /> of completed <br /> projects
-            </h1>
+            </motion.h1>
           </div>
 
           <motion.div
