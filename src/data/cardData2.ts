@@ -4,21 +4,24 @@ import Img1 from "../assets/20240909_122852000_iOS-3-506x623.jpg";
 import Phoenix from "../assets/Phoenix-Milton-Keynes-1-506x623.jpg";
 import Princesstrust from "../assets/Princess-Trust-Birmingham-Large-34-of-44-506x623.jpg";
 import Risley from "../assets/Riseley_-506x623.jpg";
-import NetherhallGardens from "../assets/NGardens-2-506x623.jpg"
+import NetherhallGardens from "../assets/NGardens-2-506x623.jpg";
+import camberwellImage from "../assets/Carmbellwell.jpg";
+import fit4lessGym from "../assets/gym.jpg";
+import Urban from "../assets/Urban-limitz.jpg"
 const cardData2 = [
   {
     category: "Community Center",
-    projectImg:  Newcastle ,
+    projectImg: Newcastle,
     pname: "Lighthouse project newcastle",
   },
   {
     category: "Education",
-    projectImg:  Risley ,
+    projectImg: Risley,
     pname: "Risley sen school, Bansingstroke",
   },
   {
     category: "Community center",
-    projectImg:  Princesstrust ,
+    projectImg: Princesstrust,
     pname: "The kings's trust,Birmingham",
   },
   {
@@ -36,10 +39,25 @@ const cardData2 = [
     projectImg: Img1,
     pname: "Lighthouse project newcastle",
   },
-    {
+  {
     category: "Education",
-    projectImg:  NetherhallGardens ,
+    projectImg: NetherhallGardens,
     pname: "Netherhall gardens, south hampstead",
+  },
+  {
+    category: "Leisure",
+    projectImg: camberwellImage,
+    pname: "Bronx gym, camberwell",
+  },
+  {
+    category: "Leisure",
+    projectImg: fit4lessGym,
+    pname: "Fit4less gym, Bethnal green",
+  },
+  {
+    category: "Leisure",
+    projectImg: Urban,
+    pname: "Urban Limitz, Harlow",
   },
 ];
 export default cardData2;

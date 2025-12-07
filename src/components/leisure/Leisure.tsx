@@ -1,6 +1,7 @@
 import React from "react";
 import leisureData from "./leisureData";
 import Template from "../Template";
+import LeisureCard from "./LeisureCard";
 
 const Leisure = () => {
   return (
@@ -21,11 +22,10 @@ const Leisure = () => {
                 cardHeading={elem.cardHeading}
               />
             </div>
-
           );
         })}
       </div>
-      
+      <LeisureCard />
     </div>
   );
 };
