@@ -4,7 +4,7 @@ const VideoPlayer = () => {
   const [playing, setPlaying] = useState(false);
 
   return (
-    <div className="relative w-full max-w-5xl mx-auto aspect-video overflow-hidden rounded-xl">
+    <div className="relative w-full max-w-5xl mx-4 aspect-video overflow-hidden rounded-xl">
       {playing && (
         <iframe
           src="https://player.vimeo.com/video/1115525851?autoplay=1&controls=1&title=0&byline=0&portrait=0"

@@ -12,7 +12,6 @@ function BgVideo() {
         loop
         muted
       />
-
       <div
         id="overlay"
         // className="absolute right-0 flex items-center text-white p-4 space-y-4 flex-col items-end"

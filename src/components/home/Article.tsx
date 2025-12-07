@@ -1,14 +1,22 @@
 import { ArrowDown } from "lucide-react";
+import { motion } from "framer-motion";
+import { textVarient } from "../../utils/animation";
 function Article() {
   return (
-    <div className="bg-white">
-      <div className="mt-10 md:mt-20 w-full md:w-[40%] p-4">
+    <div className="bg-white overflow-hidden">
+      <motion.div
+        variants={textVarient}
+        initial="paila"
+        whileInView="paxi"
+        viewport={{ once: true, amount: 0.5 }}
+        className="mt-10 md:mt-20 w-full md:w-[40%] p-4"
+      >
         <hr className="" />
         <h3 className="text-4xl md:text-7xl mt-4">
           Case <br />
           Studies
         </h3>
-      </div>
+      </motion.div>
       <div className="flex flex-col w-[100%]">
         <div className="flex justify-between p-4 items-baseline ">
           <div className="flex w-full md:w-[40%] justify-between mt-4 md:mt-8 p-4">

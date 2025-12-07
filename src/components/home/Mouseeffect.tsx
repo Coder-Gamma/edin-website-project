@@ -6,8 +6,8 @@ function Mouseeffect() {
     const handleMouseMove = (event: MouseEvent) => {
       const { clientX, clientY } = event;
       gsap.to("#cursor", {
-        x: clientX - 2,
-        y: clientY - 110,
+        x: clientX - 32,
+        y: clientY - 32,
         ease: "power4.out",
       });
     };
@@ -21,7 +21,7 @@ function Mouseeffect() {
 
   return (
     <div className="absolute top-0 left-0 z-10 pointer-events-none" id="cursor">
-      <CircleArrowDown size={48} />
+      <CircleArrowDown size={64} className="text-white font-light" />
     </div>
   );
 }

@@ -11,6 +11,11 @@ import Logosandpartners from "../components/home/Logosandpartners";
 import Morearticle from "../components/home/Morearticle";
 import cardData from "../data/cardData";
 import cardData2 from "../data/cardData2";
+
+//Framer motion imports
+import { motion } from "framer-motion";
+import { gridContainerVarients, gridCardsVarients } from "../utils/animation";
+
 const Home = () => {
   return (
     <div>
@@ -18,24 +23,34 @@ const Home = () => {
       <Headertext />
       <Article />
 
-      <div className="grid md:grid-cols-3 gap-4 mx-4 my-4 md:gap-y-20">
+      <motion.div
+        variants={gridContainerVarients}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.2 }}
+        className="grid md:grid-cols-3 gap-4 mx-4 my-4 md:gap-y-20 overflow-x-hidden"
+      >
         {/* <Cards categoty={elem.category} pimg={elem.pimg} pname={elem.pname} /> */}
         {cardData2.map(function (elem, index) {
           return (
-            <div className="grid" key={index}>
+            <motion.div
+              variants={gridCardsVarients}
+              className="grid"
+              key={index}
+            >
               <Cards
                 category={elem.category}
                 projectImg={elem.projectImg}
                 pname={elem.pname}
               />
-            </div>
+            </motion.div>
           );
         })}
 
         <div>
           <p className="underline mt-10 mb-10 p-4 text-2xl">View all</p>
         </div>
-      </div>
+      </motion.div>
 
       <Logosandpartners />
       <Morearticle />
@@ -48,19 +63,29 @@ const Home = () => {
             </h1>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <motion.div
+            variants={gridContainerVarients}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.2 }}
+            className="grid md:grid-cols-2 gap-8"
+          >
             {cardData.map(function (elem, index) {
               return (
-                <div className="grid " key={index}>
+                <motion.div
+                  variants={gridCardsVarients}
+                  className="grid "
+                  key={index}
+                >
                   <Cards2
                     img={elem.img}
                     heading={elem.heading}
                     text={elem.text}
                   />
-                </div>
+                </motion.div>
               );
             })}
-          </div>
+          </motion.div>
           <div>
             <h4 className="underline text-xl text-white my-10 pb-20">
               View more projects

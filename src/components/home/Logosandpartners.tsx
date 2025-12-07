@@ -1,12 +1,21 @@
 import Logos from "../../assets/Logos.png";
 import { Link } from "react-router-dom";
 import { MoveRight } from "lucide-react";
+import { leftVarient } from "../../utils/animation";
+import { motion } from "framer-motion";
+
 function Logosandpartners() {
   return (
     <>
-      <div className="p-4 mb-10 md:mb-20">
+      <motion.div
+        variants={leftVarient}
+        initial="paila"
+        whileInView="paxi"
+        viewport={{ once: true, amount: 0.5 }}
+        className="p-4 mb-10 md:mb-20 overflow-x-hidden"
+      >
         <img src={Logos} alt="logos" className="w-full md:w-[30%]" />
-      </div>
+      </motion.div>
       <div className="border-2 mx-2 border-gray-300 w-full md:w-[40%]"></div>
       <h2 className="text-4xl md:font-extralight md:text-9xl mt-10 md:mt-20 p-4">
         Official partner of the kings
