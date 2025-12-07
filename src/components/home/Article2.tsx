@@ -48,13 +48,6 @@ function Article2() {
         <VideoPlayer />
       </div>
 
-      {/* --- VIDEO CONTAINER --- */}
-      {/* <video
-        src="https://ik.imagekit.io/codergamma/BgVideo.mp4?updatedAt=1764672523563"
-        autoPlay
-        muted
-        poster={Poster}
-      /> */}
       <p className="py-8 text- mx-4 md:text-3xl">
         See what Ben Roman from The Lighthouse Project and Keith McClure{" "}
         <br className="hidden sm:inline" /> from Bradley McClure Architects have

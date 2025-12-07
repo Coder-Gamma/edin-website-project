@@ -15,6 +15,7 @@ import cardData2 from "../data/cardData2";
 //Framer motion imports
 import { motion } from "framer-motion";
 import { gridContainerVarients, gridCardsVarients } from "../utils/animation";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Home = () => {
   return (
@@ -96,6 +97,7 @@ const Home = () => {
       <Article2 />
       <FooterArticle />
       <FooterForm />
+      <ScrollToTop />
     </div>
   );
 };

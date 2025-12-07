@@ -32,12 +32,12 @@ function Navbar() {
             </p>
 
             <div
-              className="cursor-pointer relative z-50"
+              className="cursor-pointer relative"
               onClick={() => setOpen(!open)}
             >
               <Menu
                 strokeWidth={3}
-                className="w-10 h-10 md:w-12 md:h-12 z-50 "
+                className="w-10 h-10 md:w-12 md:h-12 z-9999 "
               />
             </div>
           </div>
