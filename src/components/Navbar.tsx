@@ -14,7 +14,8 @@ function Navbar() {
       >
         <div>
           <Link
-            to="/" onClick={() => { 
+            to="/"
+            onClick={() => {
               if (window.location.pathname === "/") {
                 window.location.reload();
               }
@@ -41,10 +42,7 @@ function Navbar() {
               className="cursor-pointer relative"
               onClick={() => setOpen(!open)}
             >
-              <Menu
-                strokeWidth={3}
-                className="w-10 h-10 md:w-12 md:h-12 z-9999 "
-              />
+              <Menu strokeWidth={3} className="w-10 h-10 md:w-12 md:h-12 " />
             </div>
           </div>
 
@@ -54,7 +52,7 @@ function Navbar() {
 
       <div
         className={`
-    fixed right-0 bg-white shadow-xl transition-all duration-500
+    fixed right-0 bg-white/95 transition-all duration-500
 
     top-[90px] h-[calc(100vh-90px)] w-full
 
@@ -65,7 +63,13 @@ function Navbar() {
     md:z-[60] z-[40]
   `}
       >
-        <div className="p-10 space-y-8 text-3xl font-medium text-gray-700 flex flex-col mt-8 ">
+        <div
+          onClick={() => setOpen(!open)}
+          className="flex justify-end pt-7 px-3"
+        >
+          <Menu strokeWidth={3} className="w-10 h-10 md:w-12 md:h-12 " />
+        </div>
+        <div className="p-10 w-[80%] gap-8 text-3xl px-30 font-medium text-gray-600 flex flex-col ">
           <Link
             onClick={() => setOpen(false)}
             to="/"
