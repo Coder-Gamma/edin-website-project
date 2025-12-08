@@ -12,7 +12,8 @@ const Education = () => {
             <div className="grid " key={index}>
               <Template
                 backgroundImg={elem.backgroundImg}
-                heading={elem.heading}
+                headingFirstLine= {elem.headingFirstLine}
+                headingSecondLine={elem.headingSecondLine}
                 leftText={elem.leftText}
                 articleImg={elem.articleImg}
                 articleHeading={elem.articleHeading}

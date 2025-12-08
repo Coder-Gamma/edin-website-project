@@ -7,7 +7,8 @@ import Risley from "../assets/Riseley_-506x623.jpg";
 import NetherhallGardens from "../assets/NGardens-2-506x623.jpg";
 import camberwellImage from "../assets/Carmbellwell.jpg";
 import fit4lessGym from "../assets/gym.jpg";
-import Urban from "../assets/Urban-limitz.jpg"
+import Urban from "../assets/Urban-limitz.jpg";
+import forDealership from "../assets/Gates-Main-780x519.jpg";
 const cardData2 = [
   {
     category: "Community Center",
@@ -58,6 +59,11 @@ const cardData2 = [
     category: "Leisure",
     projectImg: Urban,
     pname: "Urban Limitz, Harlow",
+  },
+  {
+    category: "Retail",
+    projectImg: forDealership,
+    pname: "Ford Dealership, Harlow",
   },
 ];
 export default cardData2;

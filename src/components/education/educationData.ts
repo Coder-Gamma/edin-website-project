@@ -5,7 +5,8 @@ import Education from "../../assets/EducationPageRelatedImage.jpg";
 const educationData = [
   {
     backgroundImg: EducationPageBackgroundImg,
-    heading: "School refurbishments & Builds",
+    headingFirstLine: "School refurbishments",
+    headingSecondLine: "& Builds",
     leftText:
       "At Eden, we create environments where learning thrives. From full school refurbishments to targeted classroom upgrades, we deliver spaces that support both students and staff all with minimal disruption to the school day.",
     articleImg: EducationArtcleImg,
