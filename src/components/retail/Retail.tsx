@@ -133,7 +133,7 @@ const Retail = () => {
         </div>
       </div>
 
-      {/* --------------------------cARDS SECTION-------------------------  */}
+      {/* --------------------------cARDS SECTION---------------------------------  */}
       <div>
         <div className="mx-4 md:mt-60">
           <div className="w-[30%] border-2 border-gray-400"></div>
