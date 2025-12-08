@@ -1,6 +1,5 @@
 import React from "react";
 import WhyEden from "./WhyEden";
-import CardsContainer from "./commercial/CardsContainer";
 interface template {
   backgroundImg: string;
   heading: string;

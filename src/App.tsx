@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Education from "./components/education/Education";
 import Leisure from "./components/leisure/Leisure";
 // import Commercial from "./components/Commercial";
+import Retail from "./components/retail/Retail";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/commercial" element={<Commercial />} />
         <Route path="/education" element={<Education />} />
         <Route path="/leisure" element={<Leisure />} />
+        <Route path="/retail" element={<Retail />} />
       </Routes>
       <Footer />
     </>

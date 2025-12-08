@@ -41,11 +41,11 @@ function BgVideo() {
               </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/retail" className="hover:underline">
                 <span>04</span>
                 <br />
                 Retail
-              </a>
+              </Link>
             </li>
           </ul>
           <hr />
