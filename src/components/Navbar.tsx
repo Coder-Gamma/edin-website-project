@@ -14,7 +14,11 @@ function Navbar() {
       >
         <div>
           <Link
-            to="/"
+            to="/" onClick={() => { 
+              if (window.location.pathname === "/") {
+                window.location.reload();
+              }
+            }}
           >
             <img
               src="https://edenbuild.co.uk/wp-content/themes/eden/assets/img/logo.svg"
