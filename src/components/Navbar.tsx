@@ -13,7 +13,9 @@ function Navbar() {
   ${open ? "bg-white md:bg-[rgb(233,233,228)]" : "bg-[rgb(233,233,228)]"}`}
       >
         <div>
-          <Link to="/">
+          <Link
+            to="/"
+          >
             <img
               src="https://edenbuild.co.uk/wp-content/themes/eden/assets/img/logo.svg"
               alt="logo"
