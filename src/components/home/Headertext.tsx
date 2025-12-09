@@ -28,7 +28,7 @@ function Headertext() {
         />
         <p className="mt-0 text-base md:text-2xl ">
           Official partner of the
-          <br /> King's Trust.
+          <br className="hidden md:block" /> King's Trust.
         </p>
       </motion.div>
     </div>

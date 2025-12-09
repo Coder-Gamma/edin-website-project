@@ -63,12 +63,6 @@ function Navbar() {
     md:z-[60] z-[40]
   `}
       >
-        <div
-          onClick={() => setOpen(!open)}
-          className="flex justify-end pt-7 px-3"
-        >
-          <Menu strokeWidth={3} className="w-10 h-10 md:w-12 md:h-12 " />
-        </div>
         <div className="p-10 w-[80%] gap-8 text-3xl px-30 font-medium text-gray-600 flex flex-col ">
           <Link
             onClick={() => setOpen(false)}

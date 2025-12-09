@@ -6,11 +6,11 @@ const FooterArticle = () => {
   return (
     <div>
       <div className="my-4 p-2">
-        <p className="text-2xl mx-3 py-4 border-b-2 md:text-3xl border-gray-400 opacity-0 slide-up">
+        <p className="text-2xl mx-3 py-4 border-b-2 md:text-3xl border-gray-400">
           Since 1995
         </p>
         <h2 className="text-4xl md:text-7xl my-8 md:my-20 font-thin px-3 text-gray-750">
-          Professional building &<br /> fit out contractors <br />
+          Professional building &<br className="hidden md:block" /> fit out contractors <br />
           covering the UK
         </h2>
       </div>
