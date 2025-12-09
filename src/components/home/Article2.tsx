@@ -60,11 +60,14 @@ function Article2() {
         />
         <div className="absolute  inset-0 flex flex-col justify-center items-center text-center p-4">
           <blockquote className="text-white max-w-3xl md:max-w-5xl">
-            {/* <tspan x="0" y="271"></tspan> */}
-            <p className="text-3xl text-left md:text-6xl text-gray-200 ">
-              Eden have consistently delivered beyond expectation in terms of
-              finish quality, time and project cost."
-            </p>
+            <div className="flex">
+              <span className="text-9xl hidden md:block -ml-14">“</span>
+              <p className="text-3xl text-left md:text-6xl text-gray-200 ">
+                Eden have consistently delivered beyond expectation in terms of
+                finish quality, time and project cost."
+              </p>
+            </div>
+
             <cite className=" text-gray-200 text-left mt-10 block ">
               "Keith McClure"
               <br />

@@ -36,18 +36,18 @@ const FooterArticle = () => {
           </p>
           <h5 className="text-3xl my-4">A name you can rely on</h5>
           <p>
-            {` We’re proud of our skill and expertise, and are accredited by some
+            {` We're proud of our skill and expertise, and are accredited by some
             of the most reputable organisations, including ISO 9001,
-            Construction line, Carbon Neutral and Safe Contractor. But it’s not
+            Construction line, Carbon Neutral and Safe Contractor. But it's not
             just great construction that we have to offer: our customer service
             skills are second to none. We pride ourselves on our collaborative
             working nature, always ensuring we create a space that fulfils our
-            clients visions. Don’t believe us? Take a look at our testimonials
+            clients visions. Don't believe us? Take a look at our testimonials
             and case studies.`}
           </p>
           <p>
-            {` As fit out contractors in London who’ve worked with some of the
-            country’s biggest names from a range of sectors, we have what it
+            {` As fit out contractors in London who've worked with some of the
+            country's biggest names from a range of sectors, we have what it
             takes to create innovative and inspiring retail, commercial,
             residential, leisure and office fit outs to time and budget
             requirements.`}

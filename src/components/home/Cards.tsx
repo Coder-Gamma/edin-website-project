@@ -26,7 +26,7 @@ function Cards({
           src={projectImg}
           alt="House img"
           className="h-full object-cover w-full
-          transition-transform duration-500 ease-in-out hover:scale-110 "
+          transition-transform duration-500 ease-in-out hover:scale-105 "
         />
       </div>
 
