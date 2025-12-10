@@ -1,6 +1,7 @@
 import React from "react";
 import backgroundVideo from "../../video/BgVideo.mp4";
 import VideoHero from "../VideoHero";
+import CaseStudyArticle from "./CaseStudyArticle";
 
 const videoHeroContent = {
   videoSrc: backgroundVideo,
@@ -14,6 +15,7 @@ const CaseStudy = () => {
   return (
     <div>
       <VideoHero {...videoHeroContent} />
+      <CaseStudyArticle />
     </div>
   );
 };
