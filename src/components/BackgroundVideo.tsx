@@ -10,13 +10,13 @@ interface BackgroundVideoProps {
 const BackgroundVideo: React.FC<BackgroundVideoProps> = ({
   videoSrc,
   children,
-  overlayOpacity = 0.5,
+  overlayOpacity = 0,
   posterSrc,
 }) => {
   return (
-    <div className="relative">
+    <div className="relative w-full h-screen overflow-hidden">
       <video
-        className="absolute"
+        className="absolute top-0 left-0 h-full w-full object-cover -z-10"
         src={videoSrc}
         poster={posterSrc}
         autoPlay

@@ -9,6 +9,7 @@ import Leisure from "./components/leisure/Leisure";
 import Retail from "./components/retail/Retail";
 import Lighthouse from "./components/case-study/Lighthouse";
 import ScrollToTop from "./components/ScrollToTop";
+import CaseStudy from "./components/case-study/CaseStudy";
 function App() {
   return (
     <>
@@ -20,9 +21,13 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/leisure" element={<Leisure />} />
         <Route path="/retail" element={<Retail />} />
-          <Route path="/case-studies/lighthouse" element={<Lighthouse />} />
+        <Route
+          path="/case-studies/lighthouse-project"
+          element={<Lighthouse />}
+        />
+        <Route path="/case-study" element={<CaseStudy />} />
       </Routes>
-       <ScrollToTop />
+      <ScrollToTop />
       <Footer />
     </>
   );
