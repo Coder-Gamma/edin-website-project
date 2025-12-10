@@ -7,7 +7,7 @@ const CaseStudyArticle = () => {
     <div>
       <div className="flex justify-between mx-4 my-40">
         <div>
-          <p className="text-4xl max-w-4xl tracking-normal leading-relaxed text-gray-700">
+          <p className="text-4xl max-w-4xl tracking-normal leading-relaxed font-thin text-gray-600">
             Take a look at some of our case studies to understand more about the
             types of projects we can take on, and more information about
             previous work we've completed.

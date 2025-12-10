@@ -2,6 +2,7 @@ import React from "react";
 import backgroundVideo from "../../video/BgVideo.mp4";
 import VideoHero from "../VideoHero";
 import CaseStudyArticle from "./CaseStudyArticle";
+import FeaturedCaseStudy from "./FeaturedCaseStudy";
 
 const videoHeroContent = {
   videoSrc: backgroundVideo,
@@ -16,6 +17,7 @@ const CaseStudy = () => {
     <div>
       <VideoHero {...videoHeroContent} />
       <CaseStudyArticle />
+      <FeaturedCaseStudy />
     </div>
   );
 };
