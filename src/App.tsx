@@ -20,7 +20,7 @@ function App() {
         <Route path="/education" element={<Education />} />
         <Route path="/leisure" element={<Leisure />} />
         <Route path="/retail" element={<Retail />} />
-          <Route path="/case-studies" element={<Lighthouse />} />
+          <Route path="/case-studies/lighthouse" element={<Lighthouse />} />
       </Routes>
        <ScrollToTop />
       <Footer />

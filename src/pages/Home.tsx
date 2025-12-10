@@ -31,7 +31,7 @@ const Home = () => {
         viewport={{ once: true, amount: 0.2 }}
         className="grid md:grid-cols-3 gap-4 mx-4 my-4 md:gap-y-20 overflow-x-hidden"
       >
-        {/* <Cards categoty={elem.category} pimg={elem.pimg} pname={elem.pname} /> */}
+        {/* <Cards category={elem.category} pimg={elem.pimg} pname={elem.pname} /> */}
         {cardData2.slice(0, 6).map(function (elem, index) {
           return (
             <motion.div
