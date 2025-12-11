@@ -14,10 +14,10 @@ const CaseStudyProjects: React.FC<CaseStudyProjectsProps> = (props) => {
   const displayIndex = props.index < 10 ? `0${props.index}` : props.index;
   return (
     <div>
-      <div className="grid md:grid-cols-3 gap-10  mx-4 border-t-2 border-gray-400 py-20 mb-10">
+      <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10  mx-4 border-t-2 border-gray-400 py-20 mb-10">
         {/* LEFT KO DIV */}
-        <div>
-          <div className="h-130 w-md">
+        <div className="order-1">
+          <div className="2xl:h-135 xl:mix-w-md">
             <img
               src={props.projectImage}
               alt="Eden Project Image"
@@ -27,21 +27,19 @@ const CaseStudyProjects: React.FC<CaseStudyProjectsProps> = (props) => {
         </div>
 
         {/* ----------------Middle Div-------------- */}
-        <div className="flex flex-col gap-18">
-          <h3 className="text-6xl">{props.projectName}</h3>
-          <div className="flex gap-14 items-center cursor-pointer">
+        <div className="contents xl:flex xl:flex-col xl:gap-18 xl:order-2">
+          <h3 className="text-6xl order-2 lg:order-3 xl:order-0">
+            {props.projectName}
+          </h3>
+          <div className="flex gap-14 items-center cursor-pointer order-4 xl:order-none">
             <p className="text-2xl hover:underline">Read More</p>
-            <ArrowRight
-              size={48}
-              strokeWidth={1}
-              className=" font-thin "
-            />
+            <ArrowRight size={48} strokeWidth={1} className=" font-thin " />
           </div>
         </div>
 
         {/* ---------------RIGHT SIDE KO DIV----------------- */}
 
-        <div>
+        <div className="order-3 lg:order-2 xl:order-3">
           <div className="flex justify-between">
             <div className="flex flex-col text-2xl gap-10">
               <p>{props.categoryName}</p>
