@@ -24,7 +24,7 @@ const FeaturedCaseStudy = () => {
         </div>
       </div>
 
-      <div className="h-screen w-full relative">
+      <div className="h-screen w-full relative mb-28">
         <img
           src={featuredImage}
           alt=""

@@ -3,6 +3,9 @@ import backgroundVideo from "../../video/BgVideo.mp4";
 import VideoHero from "../VideoHero";
 import CaseStudyArticle from "./CaseStudyArticle";
 import FeaturedCaseStudy from "./FeaturedCaseStudy";
+import projectsData from "./projectData";
+import CaseStudyProjects from "./CaseStudyProjects";
+
 const videoHeroContent = {
   videoSrc: backgroundVideo,
   headingFirstLine: "Case",
@@ -17,6 +20,25 @@ const CaseStudy = () => {
       <VideoHero {...videoHeroContent} />
       <CaseStudyArticle />
       <FeaturedCaseStudy />
+
+      {/* Projects case study component mapping */}
+
+      <div className="">
+       
+       {
+        projectsData.map((project,idx) =>
+        (
+          <CaseStudyProjects 
+          key={idx}
+          index={idx+1}
+          {...project}
+
+          />
+        )
+      )
+       }
+
+      </div>
     </div>
   );
 };
