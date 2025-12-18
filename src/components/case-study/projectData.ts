@@ -1,3 +1,15 @@
+import proj2 from "../../assets/project-case-study-images/02.jpg"
+import proj3 from "../../assets/project-case-study-images/03.jpg"
+import proj4 from "../../assets/project-case-study-images/04.jpg"
+import proj5 from "../../assets/project-case-study-images/05.jpg"
+import proj6 from "../../assets/project-case-study-images/06.jpg"
+import proj7 from "../../assets/project-case-study-images/07.jpg"
+import proj8 from "../../assets/project-case-study-images/08.jpg"
+import proj9 from "../../assets/project-case-study-images/09.jpg"
+import proj10 from "../../assets/project-case-study-images/10.jpg"
+
+
+
 const projectsData = [
   {
     projectName: "Fintech Dashboard",

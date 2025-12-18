@@ -15,7 +15,7 @@ const CaseStudyProjects: React.FC<CaseStudyProjectsProps> = (props) => {
   const displayIndex = props.index < 10 ? `0${props.index}` : props.index;
   return (
     <div>
-      <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-10  mx-4 border-t-2 border-gray-400 py-20 mb-10">
+      <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8  mx-4 border-t-2 border-gray-400 py-4 md:py-20 mb-10">
         <div className=" md:hidden text-end">
           <p className="text-3xl md:text-6xl">{displayIndex}</p>
         </div>
@@ -66,7 +66,7 @@ const CaseStudyProjects: React.FC<CaseStudyProjectsProps> = (props) => {
           </div>
         </div>
         <div className="flex gap-14 items-center cursor-pointer order-4 lg:hidden">
-          <p className="text-xl xl:text-2xl hover:underline ">Read More</p>
+          <p className="text-xl xl:text-2xl hover:underline">Read More</p>
           <ArrowRight size={48} strokeWidth={1} className=" font-thin " />
         </div>
       </div>
