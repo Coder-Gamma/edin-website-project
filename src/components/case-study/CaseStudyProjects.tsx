@@ -12,7 +12,7 @@ export interface CaseStudyProjectsProps {
 }
 
 const CaseStudyProjects: React.FC<CaseStudyProjectsProps> = (props) => {
-  const displayIndex = props.index < 10 ? `0${props.index}` : props.index;
+  const displayIndex = props.index + 1 < 10 ? `0${props.index + 1}` : props.index + 1;
   return (
     <div>
       <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8  mx-4 border-t-2 border-gray-400 py-4 md:py-20 mb-10">
@@ -32,7 +32,9 @@ const CaseStudyProjects: React.FC<CaseStudyProjectsProps> = (props) => {
 
         {/* ----------------Middle Div-------------- */}
         <div className="xl:flex xl:flex-col xl:gap-18 order-2 lg:order-3 xl:order-2">
-          <h3 className=" text-3xl md:text-6xl  ">{props.projectName}</h3>
+          <h3 className=" text-3xl md:text-5xl uppercase ">
+            {props.projectName}
+          </h3>
           <div className="lg:flex gap-14 items-center cursor-pointer hidden">
             <p className="text-xl xl:text-2xl hover:underline ">Read More</p>
             <ArrowRight size={48} strokeWidth={1} className=" font-thin " />
@@ -61,8 +63,8 @@ const CaseStudyProjects: React.FC<CaseStudyProjectsProps> = (props) => {
               <p className="text-3xl md:text-6xl">{displayIndex}</p>
             </div>
           </div>
-          <div className="mt-8 md:mt-14 xl:mt-40">
-            <p className="text-xl xl:text-2xl">{props.paragraph}</p>
+          <div className="mt-8 md:mt-14 xl:mt-20">
+            <p className="text-xl">{props.paragraph}</p>
           </div>
         </div>
         <div className="flex gap-14 items-center cursor-pointer order-4 lg:hidden">
