@@ -6,6 +6,8 @@ const projectsData = [
     projectArea: "UI/UX Design",
     projectImage:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop",
+    paragraph:
+      "Eden delivered extensive external works to the historic Howell's School in Cardiff, a Grade II* listed building, over a period of nearly two years.",
   },
   {
     projectName: "Eco-Travel App",
@@ -14,6 +16,8 @@ const projectsData = [
     projectArea: "Mobile Dev",
     projectImage:
       "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2670&auto=format&fit=crop",
+    paragraph:
+      "Eden delivered extensive external works to the historic Howell's School in Cardiff, a Grade II* listed building, over a period of nearly two years.",
   },
   {
     projectName: "Modern Architecture",
@@ -22,6 +26,8 @@ const projectsData = [
     projectArea: "Branding",
     projectImage:
       "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2670&auto=format&fit=crop",
+    paragraph:
+      "Eden delivered extensive external works to the historic Howell's School in Cardiff, a Grade II* listed building, over a period of nearly two years.",
   },
   {
     projectName: "AI Analytics",
@@ -30,6 +36,8 @@ const projectsData = [
     projectArea: "Frontend",
     projectImage:
       "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop",
+       paragraph:
+      "Eden delivered extensive external works to the historic Howell's School in Cardiff, a Grade II* listed building, over a period of nearly two years.",
   },
 ];
 
